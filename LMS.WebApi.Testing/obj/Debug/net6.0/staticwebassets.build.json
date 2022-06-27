@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wj153ED02lwundf3AlSMcNgCbo+/N5/FaSv6aJqPg+0=",
+  "Source": "LMS.WebApi.Testing",
+  "BasePath": "_content/LMS.WebApi.Testing",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

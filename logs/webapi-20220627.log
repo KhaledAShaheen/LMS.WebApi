@@ -1,0 +1,50 @@
+[2022-06-27 13:42:32.626 +03:00  INF]  User profile is available. Using 'C:\Users\kshah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-27 13:42:33.115 +03:00  INF]  Now listening on: https://localhost:7096
+[2022-06-27 13:42:33.115 +03:00  INF]  Now listening on: http://localhost:5096
+[2022-06-27 13:42:33.120 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-27 13:42:33.120 +03:00  INF]  Hosting environment: Development
+[2022-06-27 13:42:33.121 +03:00  INF]  Content root path: C:\Users\kshah\OneDrive\Documents\GitHub\LMS.EF\LMS.WebApi.Testing\
+[2022-06-27 13:42:37.379 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/swagger/index.html - -
+[2022-06-27 13:42:39.263 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/swagger/index.html - - - 200 - text/html;charset=utf-8 1891.5717ms
+[2022-06-27 13:42:39.488 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-27 13:42:39.493 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 5.8596ms
+[2022-06-27 13:42:39.494 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/_vs/browserLink - -
+[2022-06-27 13:42:39.776 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 282.2143ms
+[2022-06-27 13:42:40.079 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/swagger/v1/swagger.json - -
+[2022-06-27 13:42:40.288 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.1426ms
+[2022-06-27 13:42:56.553 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/api/Book/Get?bookName=h - -
+[2022-06-27 13:42:56.569 +03:00  INF]  Executing endpoint 'BookController.BookController.Get (LMS.WebApi.Testing)'
+[2022-06-27 13:42:56.619 +03:00  INF]  Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature LMS.Classes.Book Get(System.String) on controller BookController.BookController (LMS.WebApi.Testing).
+[2022-06-27 13:42:57.928 +03:00  INF]  Entity Framework Core 6.0.6 initialized 'EntityFramworkContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+[2022-06-27 13:42:58.913 +03:00  INF]  Executed DbCommand (44ms) [Parameters=[@__bookName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Copies], [b].[Name], [b].[Publisher]
+FROM [BookEntities] AS [b]
+WHERE [b].[Name] = @__bookName_0
+[2022-06-27 13:43:41.358 +03:00  INF]  User profile is available. Using 'C:\Users\kshah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-27 13:43:41.587 +03:00  INF]  Now listening on: https://localhost:7096
+[2022-06-27 13:43:41.587 +03:00  INF]  Now listening on: http://localhost:5096
+[2022-06-27 13:43:41.591 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-27 13:43:41.591 +03:00  INF]  Hosting environment: Development
+[2022-06-27 13:43:41.591 +03:00  INF]  Content root path: C:\Users\kshah\OneDrive\Documents\GitHub\LMS.EF\LMS.WebApi.Testing\
+[2022-06-27 14:46:32.981 +03:00  INF]  User profile is available. Using 'C:\Users\kshah\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-06-27 14:46:33.519 +03:00  INF]  Now listening on: https://localhost:7096
+[2022-06-27 14:46:33.519 +03:00  INF]  Now listening on: http://localhost:5096
+[2022-06-27 14:46:33.524 +03:00  INF]  Application started. Press Ctrl+C to shut down.
+[2022-06-27 14:46:33.524 +03:00  INF]  Hosting environment: Development
+[2022-06-27 14:46:33.524 +03:00  INF]  Content root path: C:\Users\kshah\OneDrive\Documents\GitHub\LMS.EF\LMS.WebApi.Testing\
+[2022-06-27 14:46:39.337 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/swagger/index.html - -
+[2022-06-27 14:46:41.182 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/swagger/index.html - - - 200 - text/html;charset=utf-8 1849.3220ms
+[2022-06-27 14:46:41.227 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/_framework/aspnetcore-browser-refresh.js - -
+[2022-06-27 14:46:41.265 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/_vs/browserLink - -
+[2022-06-27 14:46:41.270 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/_framework/aspnetcore-browser-refresh.js - - - 200 12006 application/javascript;+charset=utf-8 42.5659ms
+[2022-06-27 14:46:41.845 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 580.0898ms
+[2022-06-27 14:46:42.125 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/swagger/v1/swagger.json - -
+[2022-06-27 14:46:42.412 +03:00  INF]  Request finished HTTP/2 GET https://localhost:7096/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 286.6533ms
+[2022-06-27 14:47:13.441 +03:00  INF]  Request starting HTTP/2 GET https://localhost:7096/api/Book/Get?bookName=d - -
+[2022-06-27 14:47:13.454 +03:00  INF]  Executing endpoint 'BookController.BookController.Get (LMS.WebApi.Testing)'
+[2022-06-27 14:47:13.500 +03:00  INF]  Route matched with {action = "Get", controller = "Book"}. Executing controller action with signature LMS.Classes.Book Get(System.String) on controller BookController.BookController (LMS.WebApi.Testing).
+[2022-06-27 14:47:15.127 +03:00  INF]  Entity Framework Core 6.0.6 initialized 'EntityFramworkContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: None
+[2022-06-27 14:47:16.370 +03:00  INF]  Executed DbCommand (67ms) [Parameters=[@__bookName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [b].[Id], [b].[Copies], [b].[Name], [b].[Publisher]
+FROM [BookEntities] AS [b]
+WHERE [b].[Name] = @__bookName_0
